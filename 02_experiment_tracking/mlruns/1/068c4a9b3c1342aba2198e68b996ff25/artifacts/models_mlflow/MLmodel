@@ -1,0 +1,32 @@
+artifact_path: models_mlflow
+flavors:
+  python_function:
+    data: model.xgb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.13.3
+  xgboost:
+    code: null
+    data: model.xgb
+    model_class: xgboost.core.Booster
+    model_format: xgb
+    xgb_version: 3.0.0
+is_signature_from_type_hint: false
+mlflow_version: 2.22.0
+model_size_bytes: 7718059
+model_uuid: ba9b7e1408e74e699216b5946d240645
+prompts: null
+run_id: 068c4a9b3c1342aba2198e68b996ff25
+signature:
+  inputs: '[{"type": "string", "required": true}]'
+  outputs: null
+  params: '[{"name": "learning_rate", "default": 0.24553944703020156, "shape": null,
+    "type": "double"}, {"name": "max_depth", "default": 90, "shape": null, "type":
+    "long"}, {"name": "min_child_weight", "default": 5.1467120397278725, "shape":
+    null, "type": "double"}, {"name": "reg_alpha", "default": 0.3175195505655532,
+    "shape": null, "type": "double"}, {"name": "reg_lambda", "default": 0.2810968936145532,
+    "shape": null, "type": "double"}]'
+type_hint_from_example: false
+utc_time_created: '2025-05-08 19:32:13.212206'
