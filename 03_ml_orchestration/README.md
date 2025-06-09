@@ -4,7 +4,7 @@ For this week, I learned about how to orchestrate a ml pipeline (data loading, f
 
 ### Technical setup
 
-* OS: macOS
+* OS: macOS Sequoia 15.5 (chip M2)
 * vs code
 * Issues:
   * I could not make apache airflow work on my mac with python versions higher than 3.9. So in the end I created a virtual env with python 3.9. Essentially, I used airflow version *3.0.1* and mlflow version *2.19.0*.
