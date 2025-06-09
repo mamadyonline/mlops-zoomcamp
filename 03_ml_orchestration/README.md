@@ -16,3 +16,7 @@ For this week, I learned about how to orchestrate a ml pipeline (data loading, f
 ### Results
 
 ![Screenshot of the runs from airflow orchestration page](figs/airflow-screenshot.png "Result")
+
+### Learning resource
+
+* For a quick overview of Apache airflow: [Sleek Data airflow playlist](https://www.youtube.com/playlist?list=PLc2EZr8W2QIAI0cS1nZGNxoLzppb7XbqM)
